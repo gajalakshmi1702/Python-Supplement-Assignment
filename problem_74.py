@@ -12,7 +12,8 @@ def first_non_repeating(text):
     for char in text:
         if char_count[char] == 1:
             return char
-    return None
+    return None  
+
 
 word = "programming"
 print(f"First non-repeating: {first_non_repeating(word)}")
